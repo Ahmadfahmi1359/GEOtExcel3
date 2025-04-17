@@ -8,7 +8,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="GeoTExcel3 Add-in"/>
   <Description DefaultValue="GeoTExcel3 Taskpane Add-in"/>
-  <IconUrl DefaultValue="https://ahmadfahmi1359.github.io/GEOtExcel3/icon-32.png"/>
+  
+  <!-- Update icon URL to the new logo -->
+  <IconUrl DefaultValue="https://ahmadfahmi1359.github.io/GEOtExcel3/icon-64.png"/>
   <SupportUrl DefaultValue="https://ahmadfahmi1359.github.io/GEOtExcel3"/>
 
   <Hosts>
@@ -20,4 +22,17 @@
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
+
+  <!-- Adding the button to control the task pane -->
+  <Action>
+    <CommandSurface>
+        <Commands>
+            <Button id="toggleTaskPane"
+                    label="Toggle Task Pane"
+                    icon="https://ahmadfahmi1359.github.io/GEOtExcel3/icon-64.png"
+                    onAction="toggleTaskPane" />
+        </Commands>
+    </CommandSurface>
+  </Action>
+
 </OfficeApp>
