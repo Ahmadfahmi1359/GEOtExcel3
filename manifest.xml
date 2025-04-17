@@ -6,8 +6,8 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Ahmad Fahmi</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="GeoTExcel"/>
-  <Description DefaultValue="GeoTExcel"/>
+  <DisplayName DefaultValue="GEOtExcel"/>
+  <Description DefaultValue="GEOtExcel"/>
   <IconUrl DefaultValue="https://ahmadfahmi1359.github.io/GEOtExcel3/icon-64.png"/>
   <SupportUrl DefaultValue="https://ahmadfahmi1359.github.io/GEOtExcel3"/>
 
